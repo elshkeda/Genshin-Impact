@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Caveat', cursive;
+}
+
+body {
+  background-image: url(back.jpg);
+}
+
+header > img {
+  width: 300px;
+  height: 169px;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 70px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.menuImage {
+  border: 2px solid #172744;
+}
+
+.cinQu {
+  width: 560px;
+  height: 604px;
+}
+
+.hydro {
+  width: 400px;
+  height: 400px;
+  margin-top: 80px;
+}
+
+.valleyOfWinds {
+  width: 480px;
+  height: 601px;
+}
+
+.menuLink {
+  text-decoration: none;
+  color: #172744;
+  font-size: 30px;
+  position: absolute;
+  top: 610px;
+  right: 170px;
+}
+
+.menuLink:hover {
+  color: orange;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.menuLink:active {
+  color: yellow;
+}
+
+.menuElement {
+  position: relative;
+  margin-left: 20px;
+}
+
+.logo {
+  display: block;
+  margin: 20px auto;
+  width: 300px;
+}
+
+h2 {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.gameInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 40px;
+  background-color: #cffaff;
+}
+
+.gameInfo > img {
+  width: 900px;
+}
+
+.gameInfoDiv {
+  width: 1000px;
+  margin-top: 70px;
+}
+
+h3 {
+  font-size: 35px;
+  text-align: center;
+  color: #0a1e5f;
+}
+
+.gameInfoDiv > p {
+  font-size: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.socialNets {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 40px;
+  list-style-type: none;
+}
+
+.socialNetsImg {
+  width: 50px;
+  height: 50px;
+}
+
+footer {
+  margin-top: 40px;
+}
+/*# sourceMappingURL=style.css.map */

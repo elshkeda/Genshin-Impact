@@ -1,0 +1,88 @@
+@import "../variables.scss";
+@import "../mixins.scss";
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+    color: white;
+}
+
+body{
+    background-image: url('../back.jpg');
+}
+
+a{
+    text-decoration: none;
+    font-size: 40px;
+    &:hover{
+        color: orange;
+        transition: 0.5s;
+    }
+    &:active{
+        color: yellow;
+    }
+}
+
+h1{
+    font-size: 50px;
+    margin: 20px;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+nav > a{
+    background-color: rgb(23, 39, 68);
+    text-align: center;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.tabWrapper{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.tab{
+    font-size: 30px;
+    width: 100px;
+    background-color: rgb(23, 39, 68);
+    text-align: center;
+    border: 2px solid white;
+}
+
+.content{
+    font-size: 30px;
+    background-color: rgb(23, 39, 68);
+    margin: 40px;
+    height: 480px;
+    width: 1820px;
+}
+
+h2{
+    text-align: center;
+    margin: 20px;
+}
+
+.contentDiscription > img{
+    margin: 30px;
+    width: 236px;
+}
+
+.contentDiscription{
+    display: flex;
+    justify-content: space-around;
+}
+
+.discription{
+    width: 1000px;
+    margin-right: 20px;
+}

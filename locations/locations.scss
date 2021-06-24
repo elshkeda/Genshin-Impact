@@ -1,0 +1,88 @@
+@import "../variables.scss";
+@import "../mixins.scss";
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+    color: white;
+}
+
+body{
+    background-image: url('../back.jpg');
+}
+
+a{
+    text-decoration: none;
+    font-size: 40px;
+    &:hover{
+        color: orange;
+        transition: 0.5s;
+    }
+    &:active{
+        color: yellow;
+    }
+}
+
+h1{
+    font-size: 50px;
+    margin: 20px;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+nav > a{
+    background-color: rgb(23, 39, 68);
+    text-align: center;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.slider{
+    margin-top: 50px;
+    width: 100%;
+    height: 70%;
+    position: relative;
+}
+
+.image{
+    max-width: 100%;
+    height: 800px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+}
+
+.description{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(23, 39, 68);
+}
+
+.left{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    // transform: translateY(-50%);
+    font-size: 60px;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.right{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    font-size: 60px;
+    &:hover{
+        cursor: pointer;
+    }
+}
